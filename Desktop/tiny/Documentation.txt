@@ -110,4 +110,4 @@ V. CONTRIBUTE
 
 You can contribute to the project by submitting code to improve the language. You will be mentioned in the Contributors list.
 
-Visit serverprocessor.wordpress.com/tiny-contribute or mail your source code to nav.naveenvenkat@gmail.com.
+Visit serverprocessor.wordpress.com/tiny/contribute or mail your source code to nav.naveenvenkat@gmail.com.
