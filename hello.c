@@ -7,3 +7,4 @@ void print()
 	pjas
 	d 
 	aps g
+	as;pojg
