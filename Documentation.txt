@@ -35,7 +35,7 @@ Tiny Language is a library written for C/C++. Inspired by the turing complete la
 Q. Why should you use it?
 A. Tiny uses the most basic operations on data like increment and decrement. So you could be totally reliable on your code and write functionalities from basic. Tiny is great for people who like to write code from scratch. No dependencies. Just pure C code.
 
-IMPORTANT Note: 
+IMPORTANT Note:
 ---------------
 - Give a space between two functions. For eg. write R U L and not RUL
 - Current Data Value is abbreviated as CDV.
@@ -73,13 +73,13 @@ III. FUNCTIONS
 	- "Input"
 	- Input one character from standard input at the CDV
 
-3. U: 
+3. U:
 	- Def: void _U();
 	- "Up"
 	- Increments the CDV by 1 (8 bit binary addition)
 	- If TINY_MODE is locked, increments within range
 
-4. D: 
+4. D:
 	- Def: void _D();
 	- "Down"
 	- Decrements the CDV by 1 (8 bit binary subtraction)
@@ -117,3 +117,5 @@ V. CONTRIBUTE
 You can contribute to the project by submitting code to improve the language. You will be mentioned in the Contributors list.
 
 Visit serverprocessor.wordpress.com/tiny/contribute or mail your source code to nav.naveenvenkat@gmail.com.
+
+https://github.com/nmakes/tiny
