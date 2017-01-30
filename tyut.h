@@ -12,8 +12,8 @@
 	Visit serverprocessor.wordpress.com/tiny to learn more.
 */
 
-#ifndef __UTILS_H
-#define __UTILS_H
+#ifndef __TYUT_H
+#define __TYUT_H
 #endif
 
 #ifndef __TINY_H
