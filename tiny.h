@@ -1,12 +1,12 @@
-/*
+	/*
 	Tiny Language
 	Copyright (c) 2016 Naveen Venkat | All Rights Reserved
 
-	Warning: The following content is licensed under a Creative Commons 
+	Warning: The following content is licensed under a Creative Commons
 	Attribution-NonCommercial-NoDerivatives 4.0 International License. No part
 	of the product is in the public domain and may not be used without attribution.
 
-	If you don't agree with the terms in EULA, destroy any copy of the software 
+	If you don't agree with the terms in EULA, destroy any copy of the software
 	immediately.
 
 	Visit serverprocessor.wordpress.com/tiny to learn more.
@@ -93,7 +93,7 @@ void TINY_INIT()
 	CHANGELOG:
 		v0.1:
 			- Made the Primitive Backbone.
-			- Byte wise Data pointer 
+			- Byte wise Data pointer
 			- up, down, left, right, output, input, loop control
 			- TINY_RAMBUFF set to 1024 by default
 			- TINY_MODE set to locked by default
