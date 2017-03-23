@@ -106,9 +106,9 @@ III. FUNCTIONS
 IV. ADDITIONAL CONTENT
 ======================
 
-1. Comments can be used as normal.
-2. Labels can be used to mark processes.
-3. Code written as shows in demo.cpp makes it look intuitive.
+1. Comments can be used normally.
+2. C Labels can be used to mark processes.
+3. Code written as shown in demo.cpp makes it look intuitive.
 
 =============
 V. CONTRIBUTE
