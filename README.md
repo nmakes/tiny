@@ -9,6 +9,7 @@ Best viewed with FixedWidth font.
 ## CONTENTS
 
 I. Brief
+
 II. Variables
 	- _P
 	- TINY_RAMBUFF
@@ -16,8 +17,11 @@ II. Variables
 	- LOOP
 	- CDV
 	- DP
+
 III. Functions
+
 IV. Additional Content
+
 V. Contribute to the project
 
 
