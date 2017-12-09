@@ -1,8 +1,4 @@
-===========================
-Tiny Language C/C++ Library
----------------------------
-INTERNATIONAL DOCUMENTATION
-===========================
+# Tiny Language C/C++ Library
 
 Copyright (c) 2016 Naveen Venkat | All Rights Reserved
 
@@ -10,9 +6,7 @@ The following content is licensed under a Creative Commons Attribution-NonCommer
 
 Best viewed with FixedWidth font.
 
---------
-CONTENTS
---------
+## CONTENTS
 
 I. Brief
 II. Variables
@@ -26,25 +20,22 @@ III. Functions
 IV. Additional Content
 V. Contribute to the project
 
---------
-I. BRIEF
---------
+
+## I. BRIEF
+
 
 Tiny Language is a library written for C/C++. Inspired by the turing complete language Brainf**k Language (hereafter called BFlang), Tiny aims to bring a BFlang like functionalities to the C/C++ environment. With sophisticated controls and smart memory management, Tiny is perfect to create your own recipe for programming.
 
 Q. Why should you use it?
 A. Tiny uses the most basic operations on data like increment and decrement. So you could be totally reliable on your code and write functionalities from basic. Tiny is great for people who like to write code from scratch. No dependencies. Just pure C code.
 
-IMPORTANT Note:
----------------
+### IMPORTANT Note:
 - Give a space between two functions. For eg. write R U L and not RUL
 - Current Data Value is abbreviated as CDV.
 - Data Pointer is abbreviated as DP.
 
 
-------------
-II. VARIABLES
-------------
+## II. VARIABLES
 
 1. char* _P | Data Pointer
 
@@ -60,9 +51,8 @@ II. VARIABLES
 
 6. DP | Alias name for _P
 
-------------
-III. FUNCTIONS
-------------
+
+## III. FUNCTIONS
 
 1. O:
 	- Def: void _O();
@@ -102,17 +92,15 @@ III. FUNCTIONS
 		LOOP{ U U U }
 		This logically increments CDV by 3.
 
-======================
-IV. ADDITIONAL CONTENT
-======================
+
+## IV. ADDITIONAL CONTENT
 
 1. Comments can be used normally.
 2. C Labels can be used to mark processes.
 3. Code written as shown in demo.cpp makes it look intuitive.
 
-=============
-V. CONTRIBUTE
-=============
+
+## V. CONTRIBUTE
 
 You can contribute to the project by submitting code to improve the language. You will be mentioned in the Contributors list.
 
