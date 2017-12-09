@@ -11,12 +11,12 @@ Best viewed with FixedWidth font.
 I. Brief
 
 II. Variables
-	- _P
-	- TINY_RAMBUFF
-	- TINY_MODE
-	- LOOP
-	- CDV
-	- DP
+* _P
+* TINY_RAMBUFF
+* TINY_MODE
+* LOOP
+* CDV
+* DP
 
 III. Functions
 
