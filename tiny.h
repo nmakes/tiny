@@ -19,7 +19,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define TINY_RAMBUFF 1024 // 1 kB
+long long int TINY_RAMBUFF = 1024; // 1 kB
 
 char* _P = (char*)malloc(TINY_RAMBUFF);
 enum {open, locked} TINY_MODE;
