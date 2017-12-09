@@ -20,3 +20,4 @@
 #include "tiny.h"
 #endif
 
+// utility functions can be added here
