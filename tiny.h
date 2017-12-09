@@ -86,11 +86,15 @@ void TINY_INIT()
 #define D _D();
 #define L _L();
 #define R _R();
+#define TM void
 
 /*
-	VERSION: 0.1
+	VERSION: 0.2
 
 	CHANGELOG:
+		v0.2:
+			- Added support for turing machine definitions (TM => void)
+			- Converted TINY_RAMBUF to long long int, to make it mutable
 		v0.1:
 			- Made the Primitive Backbone.
 			- Byte wise Data pointer
