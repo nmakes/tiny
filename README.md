@@ -62,45 +62,45 @@ Tiny Language is a library written for C/C++. Inspired by the turing complete la
 
 ## III. FUNCTIONS
 
-1. O:
+### 1. O:
   
   * Def: void _O();
   * "Output"
   * Prints the ASCII character at the CDV
 
-2. I:
+### 2. I:
   
   * Def: void _I();
   * "Input"
   * Input one character from standard input at the CDV
 
-3. U:
+### 3. U:
   
   * Def: void _U();
   * "Up"
   * Increments the CDV by 1 (8 bit binary addition)
   * If TINY_MODE is locked, increments within range
 
-4. D:
+### 4. D:
   
   * Def: void _D();
   * "Down"
   * Decrements the CDV by 1 (8 bit binary subtraction)
   * If TINY_MODE is locked, decrements within range
 
-5. L:
+### 5. L:
   
   * Def: void _L();
   * "Left"
   * Moves the DP backward by 1 byte (move left)
 
-6. R:
+### 6. R:
   
   * Def: void _R();
   * "Right"
   * Moves the DP forward by 1 byte (move right)
 
-7. LOOP:
+### 7. LOOP:
   
   * It's an alias for while(*_P)
   * Loops till CDV is 0
