@@ -44,20 +44,20 @@ Tiny Language is a library written for C/C++. Inspired by the turing complete la
 
 ## II. VARIABLES
 
-1. char* _P - Data Pointer
+### 1. char* _P - Data Pointer
 
-2. TINY_RAMBUFF - defines numebr of bytes occupied in memory
+### 2. TINY_RAMBUFF - defines numebr of bytes occupied in memory
 
-3. TINY_MODE - defines whether increment / decrement of CDV is done outside the limits of 1 byte (-128 to 127, both inclusive).
+### 3. TINY_MODE - defines whether increment / decrement of CDV is done outside the limits of 1 byte (-128 to 127, both inclusive).
 
   * open - No limits. This means if CDV = 127, an increment would give -128 (8 bit binary addition)
   * locked - Arithmetic done within limits. If CDV = -128, further decrement will not occur
 
-4. LOOP - Alias name for while(*_P)
+### 4. LOOP - Alias name for while(*_P)
 
-5. CDV - Alias name for *_P
+### 5. CDV - Alias name for *_P
 
-6. DP - Alias name for _P
+### 6. DP - Alias name for _P
 
 
 ## III. FUNCTIONS
