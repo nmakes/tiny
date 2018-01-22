@@ -2,9 +2,7 @@
 
 Copyright (c) 2016 Naveen Venkat | All Rights Reserved
 
-The following content is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. No part of the product is in the public domain. If you don't agree to the terms in the License, destroy any copy of the software immediately. Visit serverprocessor.wordpress.com/tiny to learn more.
-
-Best viewed with FixedWidth font.
+The following content is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
 
 # CONTENTS
 
@@ -34,6 +32,19 @@ Tiny Language is a library written for C/C++. Inspired by the turing complete la
 *Q*. Why should you use it?
 
 *A*. Tiny uses the most basic operations on data like increment and decrement. So you could be totally reliable on your code and write functionalities from basic. Tiny is great for people who like to write code from scratch. No dependencies. Just pure C code.
+
+
+### Quick Reference:
+
+|Command               |Description                        |
+|-----------------------|-----------------------------------------------------------|
+|L      |Contains definitions of the perceptron           |
+|R           |Contains Point class and graphing functions        |
+|U  |Used as the driver function to test out the functionalities|
+|D      |Contains definitions of the perceptron           |
+|I           |Contains Point class and graphing functions        |
+|O  |Used as the driver function to test out the functionalities|
+|LOOP      | Block following it will be looped until a 0 occurs at the CDV           |
 
 ### IMPORTANT Note:
   
