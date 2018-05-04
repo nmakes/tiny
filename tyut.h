@@ -14,10 +14,23 @@
 
 #ifndef __TYUT_H
 #define __TYUT_H
-#endif
 
-#ifndef __TINY_H
 #include "tiny.h"
-#endif
 
 // utility functions can be added here
+
+void ty_showtape()
+{
+	int i=0;
+	for(i=0; i<TINY_RAMBUFF; i++)
+	{
+		printf("%c", _P[i]);
+	}
+}
+
+void ty_writestr(const char * str)
+{
+	// todo
+}
+
+#endif

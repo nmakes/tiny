@@ -13,7 +13,6 @@ II. Variables
   * _P
   * TINY_RAMBUFF
   * TINY_MODE
-  * LOOP
   * CDV
   * DP
 
@@ -44,7 +43,7 @@ Tiny Language is a library written for C/C++. Inspired by the turing complete la
 |D      |Contains definitions of the perceptron           |
 |I           |Contains Point class and graphing functions        |
 |O  |Used as the driver function to test out the functionalities|
-|LOOP      | Block following it will be looped until a 0 occurs at the CDV           |
+|LOOP      | Block following it will be looped until a 0 occurs at the CDV when loop condition is checked           |
 
 ### IMPORTANT Note:
   

@@ -14,28 +14,46 @@
 
 #ifndef __TINY_H
 #define __TINY_H
-#endif
 
 #include <stdio.h>
 #include <stdlib.h>
 
-long long int TINY_RAMBUFF = 1024; // 1 kB
+#define TINY_RAMBUFF 1024 // 1 kB
 
-char* _P = (char*)malloc(TINY_RAMBUFF);
+char * _P;
+
 enum {open, locked} TINY_MODE;
 
 void _O()
 {
+
+	if(_P==NULL)
+	{
+		printf("TINY.h ERROR: Please call TINY_INIT() before applying any operation on the tape.")
+	}
+
 	printf("%c", *_P);
 }
 
 void _I()
 {
+
+	if(_P==NULL)
+	{
+		printf("TINY.h ERROR: Please call TINY_INIT() before applying any operation on the tape.")
+	}
+
 	scanf("%c", _P);
 }
 
 void _U()
 {
+
+	if(_P==NULL)
+	{
+		printf("TINY.h ERROR: Please call TINY_INIT() before applying any operation on the tape.")
+	}
+
 	if(TINY_MODE && *_P<127)
 	{
 		(*_P)++;
@@ -48,6 +66,12 @@ void _U()
 
 void _D()
 {
+
+	if(_P==NULL)
+	{
+		printf("TINY.h ERROR: Please call TINY_INIT() before applying any operation on the tape.")
+	}
+
 	if(TINY_MODE && *_P>-128)
 	{
 		(*_P)--;
@@ -60,18 +84,34 @@ void _D()
 
 void _L()
 {
+
+	if(_P==NULL)
+	{
+		printf("TINY.h ERROR: Please call TINY_INIT() before applying any operation on the tape.")
+	}
+
 	_P--;
 }
 
 void _R()
 {
+
+	if(_P==NULL)
+	{
+		printf("TINY.h ERROR: Please call TINY_INIT() before applying any operation on the tape.")
+	}
+
 	_P++;
 }
 
 void TINY_INIT()
 {
 	TINY_MODE = locked;
-	for(int i=1; i<=TINY_RAMBUFF; i++)
+
+	_P = (char*) malloc(sizeof(char) * TINY_RAMBUFF);
+
+	int i;
+	for(i=1; i<=TINY_RAMBUFF; i++)
 	{
 		*(_P+i-1)=0;
 	}
@@ -104,3 +144,4 @@ void TINY_INIT()
 			- CDV & DP variables
 			- TINY_INIT function to take initial steps (resets all data values and sets TINY_MODE locked)
 */
+#endif
