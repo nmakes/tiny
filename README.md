@@ -37,13 +37,13 @@ Tiny Language is a library written for C/C++. Inspired by the turing complete la
 
 |Command               |Description                        |
 |-----------------------|-----------------------------------------------------------|
-|L      |Contains definitions of the perceptron           |
-|R           |Contains Point class and graphing functions        |
-|U  |Used as the driver function to test out the functionalities|
-|D      |Contains definitions of the perceptron           |
-|I           |Contains Point class and graphing functions        |
-|O  |Used as the driver function to test out the functionalities|
-|LOOP      | Block following it will be looped until a 0 occurs at the CDV when loop condition is checked           |
+|L      |Move the pointer to the left (Left)           |
+|R           |Move the pointer to the right (Right)        |
+|U  |Increment the current pointed cell by 1 (Up)|
+|D      |Decrement the current pointer cell by 1 (Down)           |
+|I           |Read a single character into the current cell (Input)        |
+|O  |Print the character at the current cell (Output)|
+|LOOP      | The block following it will be looped until a 0 occurs at the current cell when loop condition is checked           |
 
 ### IMPORTANT Note:
   
